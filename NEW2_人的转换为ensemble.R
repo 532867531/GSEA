@@ -1,4 +1,4 @@
-##mapping mouse
+##mapping humanids
 BB=read.csv(file = "I:/mart_export.txt/mart_export_human_ncbiid.txt",stringsAsFactors = FALSE)
 CC=BB[,c("Gene.stable.ID","NCBI.gene.ID")]
 CC=unique(CC)
